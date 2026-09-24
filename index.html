@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acolher Care | Home care e cuidado de idosos</title>
+<meta name="description" content="Acolher Care: home care com cuidado humano para idosos. Enfermagem, companhia e acompanhamento diário para sua família, no conforto do lar.">
+<meta name="theme-color" content="#F7DDE6">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="marca" href="#inicio" aria-label="Acolher Care, página inicial">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="24" fill="#F7DDE6"/><path d="M24 35.5c-7.5-5.2-11.5-9.3-11.5-14a6.4 6.4 0 0 1 11.5-3.9 6.4 6.4 0 0 1 11.5 3.9c0 4.7-4 8.8-11.5 14z" fill="#B8477A"/><path d="M9 30.5c3.2 4.6 8 7.2 15 7.2s11.8-2.6 15-7.2" fill="none" stroke="#8C6BB8" stroke-width="2.6" stroke-linecap="round"/></svg>
+      <span>Acolher Care<small>Home care para idosos</small></span>
+    </a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="menu" id="menu" aria-label="Menu principal">
+      <a href="#cuidados">Cuidados</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#plantoes">Plantões</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a class="btn btn-rosa" href="#contato" data-whats>Falar com a enfermeira</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Cuidar de quem cuidou de você, <em>em casa</em> e com carinho.</h1>
+        <p class="lead">A Acolher Care leva enfermagem e companhia para dentro da casa do seu familiar idoso. Uma equipe treinada para cuidar com técnica, paciência e afeto, e manter a família sempre por dentro.</p>
+        <div class="acoes">
+          <a class="btn btn-whats" href="#contato" data-whats>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.25-1.38A9.9 9.9 0 1 0 12.04 2zm0 1.8a8.1 8.1 0 1 1-4.3 15l-.3-.18-3.1.82.83-3.02-.2-.31A8.1 8.1 0 0 1 12.04 3.8zM8.6 7.7c-.2 0-.5.07-.75.35-.25.27-.98.96-.98 2.34s1 2.71 1.14 2.9c.14.18 1.95 3.1 4.8 4.22 2.37.93 2.85.75 3.36.7.52-.04 1.66-.68 1.9-1.33.23-.65.23-1.21.16-1.33-.07-.11-.25-.18-.53-.32-.28-.14-1.65-.81-1.9-.9-.26-.1-.44-.14-.63.14-.19.27-.72.9-.88 1.09-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.39-.83-.74-1.39-1.66-1.55-1.94-.16-.28-.02-.43.12-.57.13-.12.28-.32.42-.49.14-.16.19-.28.28-.46.1-.19.05-.35-.02-.49-.07-.14-.62-1.5-.86-2.05-.22-.53-.45-.46-.63-.47h-.53z"/></svg>
+            Chamar no WhatsApp
+          </a>
+          <a class="btn btn-borda" href="#cuidados">Conhecer os cuidados</a>
+        </div>
+        <ul class="garantias">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Avaliação gratuita em casa</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Plantões de 6, 12 ou 24 horas</li>
+        </ul>
+      </div>
+      <div class="hero-foto">
+        <div class="moldura">
+          <img src="assets/img/hero.jpg" width="1100" height="600" alt="Cuidadora de uniforme rosa segurando com carinho as mãos de uma senhora idosa sentada em uma poltrona, em uma sala acolhedora">
+        </div>
+        <div class="nota">
+          <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 12h6M10 16h6"/></svg></i>
+          <div><b>Relatório diário</b><span>Você acompanha o dia do seu familiar pelo celular.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CUIDADOS -->
+  <section class="cuidados" id="cuidados">
+    <div class="wrap">
+      <div class="titulo">
+        <h2>Um cuidado completo, pensado para a rotina de quem você ama</h2>
+        <p>Cada plano é montado depois de conhecer o paciente, a casa e a família. Nada de pacote pronto.</p>
+      </div>
+
+      <div class="linha">
+        <div class="linha-foto"><img src="assets/img/fisio.jpg" width="1100" height="600" loading="lazy" alt="Cuidadora fazendo exercício de alongamento com faixa elástica rosa junto de uma senhora sentada em poltrona"></div>
+        <div>
+          <h3>Movimento e autonomia todos os dias</h3>
+          <p>Exercícios leves, estímulo à caminhada e apoio nas atividades do dia a dia ajudam o idoso a manter a independência por mais tempo, com segurança.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Apoio no banho, vestir e locomoção</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Exercícios orientados pela equipe de saúde</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Prevenção de quedas dentro de casa</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="linha">
+        <div class="linha-foto"><img src="assets/img/cha.jpg" width="1100" height="600" loading="lazy" alt="Senhor sorrindo com uma xícara de chá, conversando com uma cuidadora de uniforme lilás"></div>
+        <div>
+          <h3>Companhia que faz a casa ficar mais leve</h3>
+          <p>Uma conversa, um chá, uma memória compartilhada. A solidão pesa na saúde, e nossa equipe está presente de verdade, com atenção e escuta.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Alimentação e hidratação acompanhadas</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Estímulo à memória e a atividades de que ele gosta</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Acompanhamento em consultas e passeios</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="linha">
+        <div class="linha-foto"><img src="assets/img/relatorio.jpg" width="1100" height="600" loading="lazy" alt="Cuidadora fazendo anotações em um caderno enquanto conversa com uma senhora que toma chá, com um cachorrinho ao lado"></div>
+        <div>
+          <h3>Sua família sempre bem informada</h3>
+          <p>Tudo o que acontece durante o plantão é registrado: alimentação, humor, medicação e intercorrências. Você recebe o resumo e fica tranquilo, mesmo à distância.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Administração de medicamentos conforme a prescrição</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Sinais vitais e curativos com técnica de enfermagem</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Relatório diário enviado à família</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tambem">
+        <h3>Também atendemos</h3>
+        <ul>
+          <li>Pós-operatório</li>
+          <li>Pós-internação</li>
+          <li>Cuidados paliativos</li>
+          <li>Demência e Alzheimer</li>
+          <li>Acamados</li>
+          <li>Apoio à família cuidadora</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="passos" id="como-funciona">
+    <div class="wrap">
+      <div class="titulo">
+        <h2>Do primeiro contato ao primeiro plantão</h2>
+        <p>Um caminho simples, sem burocracia, para você resolver com calma.</p>
+      </div>
+      <ol class="trilha">
+        <li><h3>Você conta a situação</h3><p>Por WhatsApp ou formulário, em poucas linhas. Respondemos no mesmo dia.</p></li>
+        <li><h3>Visita de avaliação</h3><p>Nossa enfermeira conhece o paciente e a casa e entende a rotina da família.</p></li>
+        <li><h3>Plano sob medida</h3><p>Definimos juntos a equipe, os horários e os cuidados de cada dia.</p></li>
+        <li><h3>Cuidado e acompanhamento</h3><p>A equipe começa o plantão e a enfermeira supervisiona de perto.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PLANTÕES -->
+  <section id="plantoes">
+    <div class="wrap">
+      <div class="titulo">
+        <h2>Escolha o plantão que cabe na sua rotina</h2>
+        <p>Os valores dependem do perfil do paciente e da equipe necessária. Enviamos a proposta depois da avaliação.</p>
+      </div>
+      <div class="turnos">
+        <article class="turno">
+          <div class="horas">6<small>horas</small></div>
+          <h3>Plantão parcial</h3>
+          <p>Para quem precisa de apoio em um período do dia, como manhã ou tarde, ou de um intervalo para a família descansar.</p>
+          <a class="btn btn-borda" href="#contato" data-whats data-plano="plantão de 6 horas">Pedir proposta</a>
+        </article>
+        <article class="turno destaque">
+          <span class="tag">Mais procurado</span>
+          <div class="horas">12<small>horas</small></div>
+          <h3>Plantão diurno ou noturno</h3>
+          <p>Cuidado contínuo durante o dia ou a noite, com medicação, higiene, refeições e companhia.</p>
+          <a class="btn btn-rosa" href="#contato" data-whats data-plano="plantão de 12 horas">Pedir proposta</a>
+        </article>
+        <article class="turno">
+          <div class="horas">24<small>horas</small></div>
+          <h3>Acompanhamento integral</h3>
+          <p>Presença o dia todo, com revezamento de profissionais, para casos que exigem atenção constante.</p>
+          <a class="btn btn-borda" href="#contato" data-whats data-plano="plantão de 24 horas">Pedir proposta</a>
+        </article>
+      </div>
+      <p class="aviso">Também é possível montar escalas por dias da semana ou combinar períodos diferentes.</p>
+    </div>
+  </section>
+
+  <!-- DÚVIDAS -->
+  <section class="duvidas" id="duvidas">
+    <div class="wrap">
+      <div class="titulo">
+        <h2>Dúvidas que as famílias costumam ter</h2>
+        <p>Não achou a sua? Escreva para nós e respondemos com calma.</p>
+      </div>
+      <div>
+        <details>
+          <summary>Quem são os profissionais que atendem em casa?</summary>
+          <p>Trabalhamos com técnicos de enfermagem e cuidadores selecionados por formação, experiência e perfil acolhedor. Uma enfermeira supervisiona o plano de cada paciente.</p>
+        </details>
+        <details>
+          <summary>A avaliação inicial tem custo?</summary>
+          <p>Não. A visita de avaliação é gratuita e sem compromisso. É nela que definimos o plano e a equipe ideais.</p>
+        </details>
+        <details>
+          <summary>Como vou saber como foi o dia do meu familiar?</summary>
+          <p>Ao fim de cada plantão, a equipe registra alimentação, humor, medicação e qualquer intercorrência, e a família recebe o relatório.</p>
+        </details>
+        <details>
+          <summary>Posso mudar o plano depois de começar?</summary>
+          <p>Sim. A necessidade do idoso muda e o plano acompanha: dá para ajustar horários, dias e tipo de cuidado quando for preciso.</p>
+        </details>
+        <details>
+          <summary>Vocês atendem em caso de urgência?</summary>
+          <p>Fale com a gente pelo WhatsApp. Sempre que possível, organizamos o início do atendimento rapidamente. Em emergências médicas, ligue para o SAMU (192).</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <div class="wrap contato-grid">
+      <div class="texto">
+        <h2>Vamos conversar sobre o cuidado que seu familiar merece?</h2>
+        <p>Conte um pouco da situação e nossa enfermeira retorna ainda hoje, sem compromisso.</p>
+        <div class="fone">
+          <i><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.25-1.38A9.9 9.9 0 1 0 12.04 2zm0 1.8a8.1 8.1 0 1 1-4.3 15l-.3-.18-3.1.82.83-3.02-.2-.31A8.1 8.1 0 0 1 12.04 3.8zM8.6 7.7c-.2 0-.5.07-.75.35-.25.27-.98.96-.98 2.34s1 2.71 1.14 2.9c.14.18 1.95 3.1 4.8 4.22 2.37.93 2.85.75 3.36.7.52-.04 1.66-.68 1.9-1.33.23-.65.23-1.21.16-1.33-.07-.11-.25-.18-.53-.32-.28-.14-1.65-.81-1.9-.9-.26-.1-.44-.14-.63.14-.19.27-.72.9-.88 1.09-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.39-.83-.74-1.39-1.66-1.55-1.94-.16-.28-.02-.43.12-.57.13-.12.28-.32.42-.49.14-.16.19-.28.28-.46.1-.19.05-.35-.02-.49-.07-.14-.62-1.5-.86-2.05-.22-.53-.45-.46-.63-.47h-.53z"/></svg></i>
+          <span>Atendimento pelo WhatsApp<br><span id="fone-exibido">(00) 00000-0000</span></span>
+        </div>
+      </div>
+
+      <form id="form-contato" novalidate>
+        <div>
+          <label for="nome">Seu nome</label>
+          <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Como podemos te chamar?" required>
+        </div>
+        <div>
+          <label for="cuidado">Do que seu familiar precisa?</label>
+          <select id="cuidado" name="cuidado">
+            <option>Companhia e cuidado no dia a dia</option>
+            <option>Enfermagem e medicação</option>
+            <option>Pós-operatório ou pós-internação</option>
+            <option>Demência ou Alzheimer</option>
+            <option>Ainda não sei, preciso de orientação</option>
+          </select>
+        </div>
+        <div>
+          <label for="periodo">Período de plantão</label>
+          <select id="periodo" name="periodo">
+            <option>Ainda não sei</option>
+            <option>6 horas</option>
+            <option>12 horas</option>
+            <option>24 horas</option>
+          </select>
+        </div>
+        <div>
+          <label for="msg">Conte um pouco (opcional)</label>
+          <textarea id="msg" name="msg" placeholder="Idade, rotina, cidade ou bairro..."></textarea>
+        </div>
+        <div class="erro" id="erro" role="alert"></div>
+        <button class="btn btn-whats" type="submit">Enviar pelo WhatsApp</button>
+        <small>Ao enviar, você abre uma conversa no WhatsApp com a mensagem já pronta.</small>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="rodape">
+      <div>
+        <a class="marca" href="#inicio">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="24" fill="#F7DDE6"/><path d="M24 35.5c-7.5-5.2-11.5-9.3-11.5-14a6.4 6.4 0 0 1 11.5-3.9 6.4 6.4 0 0 1 11.5 3.9c0 4.7-4 8.8-11.5 14z" fill="#B8477A"/><path d="M9 30.5c3.2 4.6 8 7.2 15 7.2s11.8-2.6 15-7.2" fill="none" stroke="#8C6BB8" stroke-width="2.6" stroke-linecap="round"/></svg>
+          <span>Acolher Care<small>Home care para idosos</small></span>
+        </a>
+        <p>Cuidado humano, técnico e afetuoso para idosos, no conforto da própria casa.</p>
+      </div>
+      <nav aria-label="Rodapé">
+        <a href="#cuidados">Cuidados</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#plantoes">Plantões</a>
+        <a href="#duvidas">Dúvidas</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+    <div class="credito">
+      <span>Landing page desenvolvida por <strong>Liliane Lima</strong> para portfólio.</span>
+      <span>Projeto de demonstração, sem fins comerciais.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="flutuante" href="#contato" data-whats aria-label="Falar pelo WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.25-1.38A9.9 9.9 0 1 0 12.04 2zm0 1.8a8.1 8.1 0 1 1-4.3 15l-.3-.18-3.1.82.83-3.02-.2-.31A8.1 8.1 0 0 1 12.04 3.8zM8.6 7.7c-.2 0-.5.07-.75.35-.25.27-.98.96-.98 2.34s1 2.71 1.14 2.9c.14.18 1.95 3.1 4.8 4.22 2.37.93 2.85.75 3.36.7.52-.04 1.66-.68 1.9-1.33.23-.65.23-1.21.16-1.33-.07-.11-.25-.18-.53-.32-.28-.14-1.65-.81-1.9-.9-.26-.1-.44-.14-.63.14-.19.27-.72.9-.88 1.09-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.39-.83-.74-1.39-1.66-1.55-1.94-.16-.28-.02-.43.12-.57.13-.12.28-.32.42-.49.14-.16.19-.28.28-.46.1-.19.05-.35-.02-.49-.07-.14-.62-1.5-.86-2.05-.22-.53-.45-.46-.63-.47h-.53z"/></svg>
+</a>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
