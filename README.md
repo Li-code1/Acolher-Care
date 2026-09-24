@@ -4,9 +4,6 @@ Landing page responsiva para uma empresa fictícia de **home care e cuidado de i
 
 > Projeto de demonstração, sem fins comerciais. A marca "Acolher Care" é fictícia.
 
-
-[Prévia da landing page](assets/preview.png)
-
 ## Sobre o projeto
 
 O objetivo foi construir uma página de conversão completa usando apenas as tecnologias nativas da web, sem frameworks nem bibliotecas, para mostrar domínio de HTML semântico, CSS moderno e JavaScript puro.
