@@ -3,6 +3,7 @@
 Landing page responsiva para uma empresa fictícia de **home care e cuidado de idosos**, criada como projeto de portfólio. O foco do design é transmitir acolhimento e confiança, usando uma paleta de **rosa e lilás suaves** para quebrar a frieza do ambiente hospitalar.
 
 > Projeto de demonstração, sem fins comerciais. A marca "Acolher Care" é fictícia.
+🔗 **[Ver demonstração ao vivo](https://acolher-care.vercel.app)**
 
 ## Sobre o projeto
 
